@@ -9,21 +9,31 @@ ad = [] #list for Adverbs
 
 def getAdjective():
     a.append(input("Type in an adjective: "))
-    a.append(input("Type in an adjective 1: "))
-    a.append(input("Type in an adjective 2: "))
-    a.append(input("Type in an adjective 3: "))
+    a.append(input("Type in another adjective: "))
+    a.append(input("Type in another adjective: "))
+    a.append(input("Type in another adjective: "))
 
 def getNoun():
-    n.append(input("Type in an noun: "))
-    n.append(input("Type in an noun 1: "))
-    n.append(input("Type in an noun 2: "))
+    n.append(input("Type in a boy's  name: "))
+    n.append(input("Type in a girl's name: "))
+    n.append(input("Type in a name of place: "))
 
 def getAdverb():
     ad.append(input("Type in an adverb: "))
-    ad.append(input("Type in an adverb1: "))
+    ad.append(input("Type in another adverb: "))
+
+def putStory():
+    #
+
+
+
+
+
 
 getAdjective()
 getNoun()
 getAdverb()
+
+
 
 print(a[0])
