@@ -9,10 +9,13 @@ ad = [] #list for Adverbs
 
 
 def putHead():
+    print("\n")
     print("Welcome to Youssef's Madlibs.")
     print("We have a very exciting story to tell you!")
     print("We need your help to finish it!")
     print("Please fill out the questionaire to hear our story!")
+    print("\n")
+
 
 def getAdjective():
     #this fuction will collect adjectives from user
@@ -33,9 +36,16 @@ def getAdverb():
     ad.append(input("Type in another adverb: "))
 
 def putStory():
+    print("\n")
     print("It started like any other day.")
-    print(n[0],"called me right around 9, but this time they had ")
-    print(a[0], " news.")
+    print(n[0],"called me right around 9, but this time they had")
+    print(a[0], "news.", n[1], " was in a fight with their")
+    print(a[1], "boyfriend. I ", ad[0], "ran to my car and started")
+    print("driving to", n[2], ". When I got there, I found out")
+    print(n[0], "and", n[1], ad[1], "threw me a ", a[2], "party!")
+    print("Don't I have", a[3]," friends!")
+    print("Luckly they brought white claws!")
+    print("\n")
 
 
 
